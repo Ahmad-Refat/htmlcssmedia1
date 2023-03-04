@@ -1,0 +1,419 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+@font-face {
+    font-family: oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: opensans;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+/* start of nav */
+nav {
+    background-color: black;
+}
+nav a:hover {
+    background-color: #ccc;
+    color: black;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 15px;
+}
+
+nav a:last-child {
+    float: right;
+}
+/* End of nav */
+
+/* start of textbox */
+#textbox {
+    text-align: center;
+    padding: 60px 0px;
+    font-family: oswald;
+}
+#textbox h1 {
+    font-size: 3rem;
+}
+#textbox p {
+    font-size: 1rem;
+}
+#textbox p span {
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+
+}
+
+/* End of textbox */
+
+
+/* Start od header */
+header {
+    position: relative;
+}
+header #aboveimg {
+    position: absolute;
+    top: 35%;
+    left: 50px;
+    color: white;
+    font-family: oswald;
+}
+
+header #aboveimg h2 {
+    font-size: 2.5rem;
+    line-height: 54px;
+    letter-spacing: 3px;
+
+}
+header #aboveimg h1 {
+    font-size: 4rem;
+    line-height: 96px;
+    letter-spacing: 5px;
+
+}
+header #aboveimg button {
+    border: none;
+    padding: 12px 22px;
+    font-size: 1.2rem;
+    background-color: rgba(138, 138, 138, 0.8);
+
+}
+header #aboveimg button:hover {
+    background-color: rgb(170,170,170)
+}
+
+/* End of header */
+
+/* Start of main */
+main {
+    background-color: #F1F1F1;
+    
+}
+/* Start of left side */
+main #leftside {
+    float: left;
+    width: 70%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+main #leftside article {
+    padding: 20px 30px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+main #leftside article .articletitle {
+    text-align: center;
+    font-family: oswald;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 15px;
+
+}
+
+
+main #leftside article .articledesc {
+    text-align: center;
+    font-family: oswald;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 25px;
+}
+main #leftside article .articledesc span {
+    color: silver;
+}
+main #leftside article .articlecontent {
+    font-family: opensans;
+    text-align: justify;
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 23px;
+}
+main #leftside article .articlecontent p {
+    padding: 15px 0px;
+}
+main #leftside article .articlecontent p span {
+    font-weight: bold;
+}
+main #leftside article .articlebutton .leftb {
+    float: left;
+    background-color: white;
+    color: black;
+    padding: 8px 13px;
+    font-family: opensans;
+    font-size: 15px;
+    line-height: 15px;
+    border: 1px solid gray;
+}
+main #leftside article .articlebutton .leftb:hover {
+    background-color: silver;
+   border-color: silver;
+}
+
+
+main #leftside article .articlebutton .rightb {
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 8px 13px;
+    font-family: opensans;
+    font-size: 15px;
+    line-height: 23px;
+    border: black;
+}
+main #leftside article .articlebutton .rightb span {
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+main #leftside article .articlebutton .rightb:hover {
+    background-color: silver;
+    border: silver;
+    color: black;
+}
+.hr {
+    border-bottom: 1px solid gray;
+}
+main #leftside article .articlefooter {
+    padding: 20px 0px;
+}
+main #leftside article .articlefooter .leftside {
+    float: left;
+    width: 30%;
+    padding: 10%;
+}
+main #leftside article .articlefooter .rightside  {
+    float: right;
+    width: 70%;
+    padding: 10%;
+
+}
+main #leftside article .articlefooter .rightside p {
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+    font-family: oswald;
+    font-style: normal;
+    padding: 20px 0px;
+
+}
+
+main #leftside article .articlefooter .rightside p span {
+    color: #7b7979;
+}
+
+
+/* End  of left side */
+
+
+/* Start of right side */
+main #rightside {
+    float: right;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 20px 0px;
+}
+main #rightside .rightintro {
+
+}
+
+.clear {
+    clear: both;
+}
+main #rightside .introdesc {
+    background-color: black;
+    color: white;
+    text-align: justify;
+    margin-top: -7px;
+    font-family: opensans;
+    font-size: 15px;
+    line-height: 23px;
+    padding: 10px 20px;
+}
+main #rightside .rightsections {
+    margin: 20px 0px;
+}
+main #rightside .rightsections h3 {
+    background-color: black;
+    color: white;
+    font-family: oswald;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main #rightside .rightsections .sectioncontent {
+    background-color: white;
+   
+}
+/* posts */
+main #rightside .rightsections  #posts {
+
+}
+main #rightside .rightsections  #posts ul{
+    padding: 0px;
+    list-style-type: none;
+
+}
+
+main #rightside .rightsections #posts ul li {       
+   padding: 10px;
+   border-top: 1px solid gray;
+}
+main #rightside .rightsections  #posts ul li .lefts{
+    float: left;
+    width: 30%;
+}
+
+main #rightside .rightsections  #posts ul li .rights {
+    float: right;
+    width: 87%;
+}
+main #rightside .rightsections  #posts ul li .rights p{
+    padding: 7px 12px;
+}
+.clear {
+    clear: both;
+}
+main #rightside .rightsections  #posts ul li:hover {
+    background-color: silver;
+}
+/* advertise */
+main #rightside .rightsections #advertise {
+    padding: 20px;
+}
+
+main #rightside .rightsections #advertise section {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+/* tags */
+main #rightside .rightsections #tags {
+    padding: 10px 20px 30px;
+}
+
+main #rightside .rightsections #tags span {
+    padding: 0px 5px;
+    background-color: #F1F1F1;
+    display: inline-block;
+    margin-top: 15px;
+    font-family: opensans;
+    font-size: 12px;
+    line-height: 18px;
+}
+main #rightside .rightsections #tags span:first-child {
+    background-color: black;
+    color: white;
+    padding: 8px 8px;
+  
+}
+/* inspiration */
+main #rightside .rightsections #inspiration {
+
+}
+
+main #rightside .rightsections #inspiration div {
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
+/* follow */
+main #rightside .rightsections #follow {
+    padding: 20px;
+}
+main #rightside .rightsections #follow a{
+    color: black;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 3px;
+}
+main #rightside .rightsections #follow a:hover{
+    color: gray;
+}
+main #rightside .rightsections #Subscribe {
+    padding: 20px;
+}
+main #rightside .rightsections #Subscribe p {
+    padding: 10px;
+    font-family: opensans;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+main #rightside .rightsections #Subscribe input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+main #rightside .rightsections #Subscribe button {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-family: opensans;
+    font-size: 15px;
+    line-height: 23px;
+}
+main #rightside .rightsections #Subscribe button:hover {
+    background-color: silver;
+    color: black;
+}
+
+/* End of right side */
+
+/* End of main */
+
+
+/* Start of footer */
+    footer{
+        background-color: #616161;
+        padding: 50px;
+    }
+    footer > a {
+        background-color: black;
+        color: white;
+        padding: 10px 30px;
+        border: none;
+        text-decoration: none;
+        margin-bottom: 16px;
+    }
+    footer > a:hover{
+        background-color: rgb(174, 171, 171);
+    }
+
+
+    footer p {
+        padding-top: 25px;
+        font-size: 1.1rem;
+        line-height: 23px;
+        color: white;
+    }
+    footer p a {
+        color: white;
+    }
+    .clear {
+        clear: both;
+    }
+    
+
+
+
+
+/* End of footer */
